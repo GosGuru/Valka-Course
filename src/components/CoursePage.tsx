@@ -100,8 +100,8 @@ export default function CoursePage() {
     setIsLoading(true);
     
     try {
-      // URL de tu webhook de N8N - reemplaza con tu URL real
-      const N8N_WEBHOOK_URL = "https://your-n8n-instance.com/webhook/chat-agent";
+      // URL de tu webhook de N8N - actualizada con tu URL real
+      const N8N_WEBHOOK_URL = "https://n8n.srv952620.hstgr.cloud/webhook/a8d1d9e3-3708-43ec-a938-41b26bffdfec";
       
       const response = await fetch(N8N_WEBHOOK_URL, {
         method: 'POST',
@@ -198,7 +198,7 @@ export default function CoursePage() {
               >
                 <img
                   className="w-auto h-8"
-                  src="/logo 1.png"
+                  src="/logo.png"
                   alt="Valka Logo"
                 />
               </a>

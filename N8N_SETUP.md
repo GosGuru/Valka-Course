@@ -81,17 +81,13 @@ El agente debe responder con este formato JSON:
 
 ### Cambiar URL del Webhook
 
-En `CoursePage.tsx`, línea ~90, reemplaza:
+En `CoursePage.tsx`, línea ~104, reemplaza:
 
 ```typescript
-const N8N_WEBHOOK_URL = "https://your-n8n-instance.com/webhook/chat-agent";
+const N8N_WEBHOOK_URL = "https://n8n.srv952620.hstgr.cloud/webhook/a8d1d9e3-3708-43ec-a938-41b26bffdfec";
 ```
 
-Por tu URL real de N8N:
-
-```typescript
-const N8N_WEBHOOK_URL = "https://tu-n8n.app.n8n.cloud/webhook/chat-agent";
-```
+✅ **Ya está configurado con tu URL de N8N!**
 
 ### Variables de Entorno (Recomendado)
 

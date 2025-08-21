@@ -11,7 +11,7 @@ const HomePage = () => {
         {/* Background Image with Gradient Overlay */}
         <div className="absolute inset-0">
           <img
-            src="/public/hero.jpg"
+            src="/hero.jpg"
             alt="Calistenia background"
             className="object-cover w-full h-full"
           />

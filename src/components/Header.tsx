@@ -19,7 +19,7 @@ const Header = () => {
         >
           <img
             className="w-24 h-auto hover:opacity-80 transition-opacity"
-            src="/logo 1.png"
+            src="/logo.png"
             alt="Valka Logo"
           />
         </a>
