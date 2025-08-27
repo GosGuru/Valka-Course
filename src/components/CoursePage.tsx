@@ -32,7 +32,8 @@ const MODULES: Module[] = [
     id: "mod-2",
     title: "Módulo 2 · Técnica de básicos",
     durationMin: 26,
-    video: { type: "file", url: "/videos/tecnica-basicos.mp4" },
+  // Reemplazado a YouTube temporal porque el archivo local no existe en /public/videos
+  video: { type: "youtube", url: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
     summary:
       "Puntos de rendimiento para sentadilla, press, dominadas y bisagra.",
     body:
@@ -53,7 +54,8 @@ const MODULES: Module[] = [
     id: "mod-4",
     title: "Módulo 4 · Nutrición base",
     durationMin: 21,
-    video: { type: "file", url: "/videos/nutricion.mp4" },
+  // Reemplazado a YouTube temporal porque el archivo local no existe en /public/videos
+  video: { type: "youtube", url: "https://www.youtube.com/embed/YbJOTdZBX1g" },
     summary: "Macros sin apps: comer para rendir y recuperarte.",
     body:
       "Estimá porciones con reglas prácticas para mejorar adherencia.",

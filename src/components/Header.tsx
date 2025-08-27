@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
+const logoUrl = "/logo.png";
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -18,8 +20,8 @@ const Header = () => {
           className="z-10"
         >
           <img
-            className="w-24 h-auto hover:opacity-80 transition-opacity"
-            src="/logo.png"
+            className="w-24 h-auto transition-opacity hover:opacity-80"
+            src={logoUrl}
             alt="Valka Logo"
           />
         </a>

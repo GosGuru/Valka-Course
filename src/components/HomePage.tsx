@@ -1,6 +1,8 @@
 import { Dumbbell } from "lucide-react";
 import Header from "./Header";
 
+const heroImg = "/hero.jpg"; // ensure correct path with Vite base
+
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-black font-['Bebas_Neue']">
@@ -11,7 +13,7 @@ const HomePage = () => {
         {/* Background Image with Gradient Overlay */}
         <div className="absolute inset-0">
           <img
-            src="/hero.jpg"
+            src={heroImg}
             alt="Calistenia background"
             className="object-cover w-full h-full"
           />
