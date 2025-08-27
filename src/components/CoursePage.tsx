@@ -200,7 +200,7 @@ export default function CoursePage() {
               >
                 <img
                   className="w-auto h-8"
-                  src={`${import.meta.env.BASE_URL}logo.png`}
+                  src="/logo.png"
                   alt="Valka Logo"
                 />
               </a>
