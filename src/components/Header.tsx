@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const logoUrl = "/logo.png";
+const logoUrl = `${import.meta.env.BASE_URL}logo.png`;
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,7 +1,7 @@
 import { Dumbbell } from "lucide-react";
 import Header from "./Header";
 
-const heroImg = "/hero.jpg"; // ensure correct path with Vite base
+const heroImg = `${import.meta.env.BASE_URL}hero.jpg`; // ensure correct path with Vite base
 
 const HomePage = () => {
   return (
